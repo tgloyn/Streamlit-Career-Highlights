@@ -1,8 +1,9 @@
 import streamlit as st
 from streamlit_timeline import timeline
 import json
-
 from helpers import *
+
+check_password()
 
 st.set_page_config(page_title="Career Highlights", page_icon=":briefcase:", layout="wide", initial_sidebar_state="expanded")
 

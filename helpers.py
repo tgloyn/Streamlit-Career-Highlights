@@ -1,8 +1,20 @@
 from PIL import Image
 import base64
 from io import BytesIO
-import streamlit as st
+import streamlit as st, hmac
 
+def check_password():
+    def _enter():
+        pw_ok = hmac.compare_digest(st.session_state.get("pw", ""), st.secrets["password"])
+        st.session_state["auth"] = pw_ok
+        st.session_state.pop("pw", None) # remove password from session state
+
+    if not st.session_state.get("auth", False):
+        st.text_input("Enter password to access site:", type="password", key="pw", on_change=_enter)
+        if "auth" in st.session_state and not st.session_state["auth"]:
+            st.error("Incorrect password")
+        st.stop()
+        
 def load_headshot(path, display_px=150, pixel_ratio=2):
     """
     Load and process the headshot image.

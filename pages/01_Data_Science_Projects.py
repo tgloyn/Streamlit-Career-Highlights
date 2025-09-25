@@ -1,6 +1,7 @@
 from helpers import *
 import streamlit as st
 
+check_password()
 st.set_page_config(page_title="Data Science Projects", page_icon=":bar_chart:", layout="wide")
 
 # Custom CSS to reduce top padding and style header

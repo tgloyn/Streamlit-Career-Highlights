@@ -1,6 +1,7 @@
 import streamlit as st
 from helpers import *
 
+check_password()
 st.set_page_config(page_title="Testimonials", page_icon=":speech_balloon:", layout="wide")
 
 # Custom CSS to reduce top padding and style header

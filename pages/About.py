@@ -1,6 +1,7 @@
 import streamlit as st
 from helpers import *
 
+check_password()
 st.set_page_config(page_title="About Me", page_icon=":wave:", layout="wide")
 
 headshot_and_title("About Me")
