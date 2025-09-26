@@ -30,7 +30,7 @@ st.markdown("""
 <style>
 /* Apply to all alert boxes: info/success/warning/error */
 .stAlert {
-  min-height: 350px;         /* tweak to your needs */
+  min-height: 500px;         /* tweak to your needs */
   display: flex;              /* let inner wrap stretch */
 }
 .stAlert > div {
