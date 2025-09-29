@@ -31,4 +31,4 @@ st.write('---')
 
 data = json.load(open('assets/timeline_data.json'))
 
-timeline(data, height=650)  # accepts dict or JSON string
+timeline(data['timeline'], height=650)  # accepts dict or JSON string

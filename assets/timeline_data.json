@@ -1,4 +1,4 @@
-{
+{"timeline": {
   "title": {
       "media": {
         "url": "https://as2.ftcdn.net/jpg/03/20/20/45/1000_F_320204593_jleBxTiJQyiQ0Zsa1CG6O3GrFUGx136b.webp",
@@ -113,4 +113,5 @@
      "end_date":   {"year": 2025, "month": 10},
      "text": {"headline": "Professional Career"}}
   ]
+  }
 }

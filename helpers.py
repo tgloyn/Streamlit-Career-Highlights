@@ -131,7 +131,7 @@ def headshot_and_title(title: str):
     with headshot_col:
         # Display the headshot image
         try:
-            load_headshot('assets/headshot.png', display_px=120)
+            load_headshot('assets/images/headshot.png', display_px=120)
         except:
             st.error("Headshot image not found")
 

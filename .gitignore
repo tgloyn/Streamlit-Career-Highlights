@@ -208,3 +208,9 @@ __marimo__/
 
 # streamlit secrets
 .streamlit
+
+# CV_Docs
+assets/cv_docs.json
+
+# macOS
+.DS_Store
