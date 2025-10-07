@@ -116,7 +116,7 @@ def page_title_and_socials(title: str):
     st.title(title)
     st.write(social_links(
         linkedin_url="https://www.linkedin.com/in/troy-gloyn-99b24b131/",
-        github_url="https://github.com/troygloyn",
+        github_url="https://github.com/tgloyn",
         goodreads_url="https://www.goodreads.com/user/show/130347255-troy-gloyn",
         size=26,
         color="#0A66C2",
