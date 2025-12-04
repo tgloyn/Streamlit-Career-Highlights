@@ -1,7 +1,7 @@
 # build_index_once.py  (run locally)
 import os
 from dotenv import load_dotenv
-import faiss, numpy as np, pickle, json
+import faiss, numpy as np, pickle, json # Facebook AI Similarity Search (FAISS)
 from openai import OpenAI
 
 load_dotenv()
